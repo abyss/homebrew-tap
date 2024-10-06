@@ -1,4 +1,4 @@
-# Abyss' Tap
+# Abyss' Tools Homebrew tap
 
 ## How do I install these formulae?
 
