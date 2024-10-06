@@ -1,4 +1,4 @@
-# Abyss Tap
+# Abyss' Tap
 
 ## How do I install these formulae?
 
