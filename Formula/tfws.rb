@@ -5,20 +5,20 @@
 class Tfws < Formula
   desc "Interactive Terraform workspace selector"
   homepage "https://github.com/abyss/tfws"
-  version "1.0.3"
+  version "1.0.4"
 
   on_macos do
     on_intel do
-      url "https://github.com/abyss/tfws/releases/download/v1.0.3/tfws_Darwin_x86_64.tar.gz"
-      sha256 "bd85a1a6a6efc496ad164650631c40148661d56ec6538618479e72b0e38fbb35"
+      url "https://github.com/abyss/tfws/releases/download/v1.0.4/tfws_Darwin_x86_64.tar.gz"
+      sha256 "e5beca69f25300a4f06b2e982b75c2cbbc0a33174a2b1a6c4105a55e9923ad55"
 
       def install
         bin.install "tfws"
       end
     end
     on_arm do
-      url "https://github.com/abyss/tfws/releases/download/v1.0.3/tfws_Darwin_arm64.tar.gz"
-      sha256 "91a24358b8250428008aeea3cfcecce9815680cf7e201fcc9643289f2ecee194"
+      url "https://github.com/abyss/tfws/releases/download/v1.0.4/tfws_Darwin_arm64.tar.gz"
+      sha256 "7f40af3d68311659e705f322e22f005e96c46f12c5e2bc61ea01af44812f7816"
 
       def install
         bin.install "tfws"
@@ -29,8 +29,8 @@ class Tfws < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/abyss/tfws/releases/download/v1.0.3/tfws_Linux_x86_64.tar.gz"
-        sha256 "4695ac851726156ff88a30c91703d1144fa08220a2cd21175926e153924468b4"
+        url "https://github.com/abyss/tfws/releases/download/v1.0.4/tfws_Linux_x86_64.tar.gz"
+        sha256 "25c1c8bba3a641f062f49ee20e1bef20ec3a87f5990f310baeb5845792e36179"
 
         def install
           bin.install "tfws"
@@ -39,8 +39,8 @@ class Tfws < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/abyss/tfws/releases/download/v1.0.3/tfws_Linux_arm64.tar.gz"
-        sha256 "e32059dc109664f06cdb7cb389265df270dbaf0b63bdbd90ef15ec5768f99dc9"
+        url "https://github.com/abyss/tfws/releases/download/v1.0.4/tfws_Linux_arm64.tar.gz"
+        sha256 "8bed6180ff09dff67a32ae70843017a44d0b66dcd06e3b188a87ec7cf2100d7d"
 
         def install
           bin.install "tfws"
