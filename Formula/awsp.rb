@@ -5,12 +5,12 @@
 class Awsp < Formula
   desc "Easily switch between AWS Profiles with an interactive selector"
   homepage "https://github.com/abyss/go-awsp"
-  version "1.0.1"
+  version "1.0.2"
 
   on_macos do
     on_intel do
-      url "https://github.com/abyss/go-awsp/releases/download/v1.0.1/go-awsp_Darwin_x86_64.tar.gz"
-      sha256 "592e18be51b078cc89927ddb0148b186e7f9146daa39e9faee0673b8252e09a5"
+      url "https://github.com/abyss/go-awsp/releases/download/v1.0.2/go-awsp_Darwin_x86_64.tar.gz"
+      sha256 "2bd7d6df31c9f9326f0c211f399ca014ef7142241bf5df497510adf35fcc1fdc"
 
       def install
         prefix.install "_source-awsp.sh"
@@ -18,8 +18,8 @@ class Awsp < Formula
       end
     end
     on_arm do
-      url "https://github.com/abyss/go-awsp/releases/download/v1.0.1/go-awsp_Darwin_arm64.tar.gz"
-      sha256 "41569fc03091f56c04b954c80e8cd230a770b974156ce993eac4a2111a7af013"
+      url "https://github.com/abyss/go-awsp/releases/download/v1.0.2/go-awsp_Darwin_arm64.tar.gz"
+      sha256 "cb05a8fe9f41cc29919f0f61d9bd9327539c1e31146700db26e48fe821ad5ae9"
 
       def install
         prefix.install "_source-awsp.sh"
@@ -31,8 +31,8 @@ class Awsp < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/abyss/go-awsp/releases/download/v1.0.1/go-awsp_Linux_x86_64.tar.gz"
-        sha256 "daf7e35a55c9528d6e2ffa67ef82831375ea4d30e6226f084eb92cdd33082fbb"
+        url "https://github.com/abyss/go-awsp/releases/download/v1.0.2/go-awsp_Linux_x86_64.tar.gz"
+        sha256 "c5c131ee09ca16de56d16becfe71b9726ae074e7ae77aaa63cb20f3f2533c988"
 
         def install
           prefix.install "_source-awsp.sh"
@@ -42,8 +42,8 @@ class Awsp < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/abyss/go-awsp/releases/download/v1.0.1/go-awsp_Linux_arm64.tar.gz"
-        sha256 "217f4751f3ed14e9f49eb5ee618f6c60263a3500ca8b34f40416d2462031f954"
+        url "https://github.com/abyss/go-awsp/releases/download/v1.0.2/go-awsp_Linux_arm64.tar.gz"
+        sha256 "b7ee0ff7e4a28724182baf754a36c0f59b7f2b0aff1cd485d880ba968bdcb089"
 
         def install
           prefix.install "_source-awsp.sh"
